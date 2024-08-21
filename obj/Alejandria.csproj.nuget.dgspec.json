@@ -1,28 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "/Users/mariajosepino/Alejandria/Alejandria/Alejandria.csproj": {}
-  },
-  "projects": {
-    "/Users/mariajosepino/Alejandria/Alejandria/Alejandria.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/mariajosepino/Alejandria/Alejandria/Alejandria.csproj",
-        "projectName": "Alejandria",
-        "projectPath": "/Users/mariajosepino/Alejandria/Alejandria/Alejandria.csproj",
-        "packagesPath": "/Users/mariajosepino/.nuget/packages/",
-        "outputPath": "/Users/mariajosepino/Alejandria/Alejandria/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/mariajosepino/.nuget/NuGet/NuGet.Config"
-=======
-<<<<<<< HEAD
-    "/home/riwip5-042/Documents/Alejandria C-Sharp/Alejandria/Alejandria.csproj": {}
-=======
     "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj": {}
->>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
   },
   "projects": {
     "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj": {
@@ -35,45 +14,7 @@
         "outputPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "/home/riwip5-042/.nuget/NuGet/NuGet.Config"
-=======
-<<<<<<< HEAD
-    "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj": {}
-  },
-  "projects": {
-    "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
-        "projectName": "Alejandria",
-        "projectPath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
-        "packagesPath": "/home/riwip5-044/.nuget/packages/",
-        "outputPath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/riwip5-044/.nuget/NuGet/NuGet.Config"
-=======
-    "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj",
-        "projectName": "Alejandria",
-        "projectPath": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj",
-        "packagesPath": "C:\\Users\\zero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\zero\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
->>>>>>> ee3b561694d962d9bb75649ec97f7f1363c20e26
->>>>>>> d498d22a2aab74b9d5e9ee41762bf17b5527c206
-=======
           "/home/riwip5-047/.nuget/NuGet/NuGet.Config"
->>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -115,15 +56,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
->>>>>>> d498d22a2aab74b9d5e9ee41762bf17b5527c206
-=======
           "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
->>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
         }
       }
     }
