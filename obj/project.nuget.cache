@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "s2xDgi5AbXnXnavB4mjYeP74NkaB+5nBopt4MB20ZtENdLHkAIb1EMRel9kX8qBUz42xuS1U3HEhl8/NUkrEIA==",
+  "success": true,
+  "projectFilePath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
+=======
   "dgSpecHash": "OOmtGKbL8KM=",
   "success": true,
   "projectFilePath": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj",
+>>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
   "expectedPackageFiles": [],
   "logs": []
 }

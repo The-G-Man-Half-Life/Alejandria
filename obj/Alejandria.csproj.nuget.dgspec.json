@@ -1,6 +1,22 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj": {}
+  },
+  "projects": {
+    "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
+        "projectName": "Alejandria",
+        "projectPath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
+        "packagesPath": "/home/riwip5-044/.nuget/packages/",
+        "outputPath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riwip5-044/.nuget/NuGet/NuGet.Config"
+=======
     "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj": {}
   },
   "projects": {
@@ -15,6 +31,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zero\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
         ],
         "originalTargetFrameworks": [
           "net8.0"
