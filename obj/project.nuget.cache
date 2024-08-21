@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2ewUsegDZ1Kt+6jk/NEebzS2+9x0ddZPbpkXB9D9QP4AxQVs/z18+foJkR6N410/rmsUuHHajezQKdd2TtV4YQ==",
   "success": true,
   "projectFilePath": "/home/riwip5-042/Documents/Alejandria C-Sharp/Alejandria/Alejandria.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "s2xDgi5AbXnXnavB4mjYeP74NkaB+5nBopt4MB20ZtENdLHkAIb1EMRel9kX8qBUz42xuS1U3HEhl8/NUkrEIA==",
+  "success": true,
+  "projectFilePath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
+=======
+  "dgSpecHash": "OOmtGKbL8KM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj",
+>>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
+>>>>>>> ee3b561694d962d9bb75649ec97f7f1363c20e26
   "expectedPackageFiles": [],
   "logs": []
 }

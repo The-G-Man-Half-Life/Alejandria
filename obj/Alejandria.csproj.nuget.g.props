@@ -4,12 +4,30 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+<<<<<<< HEAD
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/riwip5-042/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/riwip5-042/.nuget/packages/</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/riwip5-044/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/riwip5-044/.nuget/packages/</NuGetPackageFolders>
+=======
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\zero\.nuget\packages\</NuGetPackageFolders>
+>>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
+>>>>>>> ee3b561694d962d9bb75649ec97f7f1363c20e26
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.8.1</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <SourceRoot Include="/home/riwip5-042/.nuget/packages/" />
+=======
+<<<<<<< HEAD
+    <SourceRoot Include="/home/riwip5-044/.nuget/packages/" />
+=======
+    <SourceRoot Include="C:\Users\zero\.nuget\packages\" />
+>>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
+>>>>>>> ee3b561694d962d9bb75649ec97f7f1363c20e26
   </ItemGroup>
 </Project>
