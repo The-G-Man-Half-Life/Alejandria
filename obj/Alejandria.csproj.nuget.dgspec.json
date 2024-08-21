@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj": {}
+    "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj": {}
   },
   "projects": {
-    "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj": {
+    "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj",
+        "projectUniqueName": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
         "projectName": "Alejandria",
-        "projectPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj",
-        "packagesPath": "/home/riwip5-047/.nuget/packages/",
-        "outputPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/obj/",
+        "projectPath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/Alejandria.csproj",
+        "packagesPath": "/home/riwip5-044/.nuget/packages/",
+        "outputPath": "/home/riwip5-044/Documents/EdgarBranch/Alejandria/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/riwip5-047/.nuget/NuGet/NuGet.Config"
+          "/home/riwip5-044/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
