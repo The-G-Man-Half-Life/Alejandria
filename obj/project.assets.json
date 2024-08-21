@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/riwip5-047/.nuget/packages/": {}
+    "C:\\Users\\zero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj",
+      "projectUniqueName": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj",
       "projectName": "Alejandria",
-      "projectPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj",
-      "packagesPath": "/home/riwip5-047/.nuget/packages/",
-      "outputPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/obj/",
+      "projectPath": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\Alejandria.csproj",
+      "packagesPath": "C:\\Users\\zero\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zero\\Documents\\programacion\\Celulas de trabajo\\Alejandria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/riwip5-047/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\zero\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -62,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
