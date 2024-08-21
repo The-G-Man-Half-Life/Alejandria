@@ -21,16 +21,16 @@ public class AppDbContext : DbContext
     {
     }
 
-    protected override void OnModelCreating(ModuleBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configure primary keys
+        // Configurar claves primarias
         modelBuilder.Entity<Loan>().HasKey(l => l.LoanId);
         modelBuilder.Entity<User>().HasKey(u => u.UserId);
-        // modelBuilder.Entity<Book>().HasKey(b => b.BookId);
+        modelBuilder.Entity<Book>().HasKey(b => b.BookId);
         modelBuilder.Entity<Author>().HasKey(a => a.AuthorId);
         modelBuilder.Entity<Location>().HasKey(l => l.LocationCode);
 
-        // Configure relationships
+        // Configurar relaciones
         modelBuilder.Entity<Loan>()
             .HasOne(l => l.User)
             .WithMany(u => u.Loans)
