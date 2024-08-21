@@ -9,6 +9,7 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/Users/mariajosepino/.nuget/packages/": {}
 =======
 <<<<<<< HEAD
@@ -21,10 +22,14 @@
 >>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
 >>>>>>> ee3b561694d962d9bb75649ec97f7f1363c20e26
 >>>>>>> d498d22a2aab74b9d5e9ee41762bf17b5527c206
+=======
+    "/home/riwip5-047/.nuget/packages/": {}
+>>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "/Users/mariajosepino/Alejandria/Alejandria/Alejandria.csproj",
       "projectName": "Alejandria",
@@ -37,12 +42,16 @@
 =======
 <<<<<<< HEAD
       "projectUniqueName": "/home/riwip5-042/Documents/Alejandria C-Sharp/Alejandria/Alejandria.csproj",
+=======
+      "projectUniqueName": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj",
+>>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
       "projectName": "Alejandria",
-      "projectPath": "/home/riwip5-042/Documents/Alejandria C-Sharp/Alejandria/Alejandria.csproj",
-      "packagesPath": "/home/riwip5-042/.nuget/packages/",
-      "outputPath": "/home/riwip5-042/Documents/Alejandria C-Sharp/Alejandria/obj/",
+      "projectPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/Alejandria.csproj",
+      "packagesPath": "/home/riwip5-047/.nuget/packages/",
+      "outputPath": "/home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "/home/riwip5-042/.nuget/NuGet/NuGet.Config"
 =======
 <<<<<<< HEAD
@@ -66,6 +75,9 @@
 >>>>>>> ffb219c2d5f8970a4a74e8bc61036f72b3adbb98
 >>>>>>> ee3b561694d962d9bb75649ec97f7f1363c20e26
 >>>>>>> d498d22a2aab74b9d5e9ee41762bf17b5527c206
+=======
+        "/home/riwip5-047/.nuget/NuGet/NuGet.Config"
+>>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -83,11 +95,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -113,11 +120,23 @@
           }
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
 >>>>>>> d498d22a2aab74b9d5e9ee41762bf17b5527c206
+=======
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+>>>>>>> a07c599c2fc476dd407020c165555fac2e4f3af8
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/riwip5-047/Documents/c-Sharp-The-G-Man/Alejandria/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
