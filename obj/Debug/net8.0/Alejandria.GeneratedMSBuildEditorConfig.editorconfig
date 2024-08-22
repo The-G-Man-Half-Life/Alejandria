@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/riwip5-044/Documents/EdgarBranch/Alejandria
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

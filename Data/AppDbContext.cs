@@ -14,7 +14,7 @@ public class AppDbContext : DbContext
     public DbSet<User> Users { get; set; }
     public DbSet<Book> Books { get; set; }
     public DbSet<Author> Authors { get; set; }
-    public DbSet<Location> Locations { get; set; }
+    // public DbSet<Location> Locations { get; set; }
 
     public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options)
@@ -25,10 +25,9 @@ public class AppDbContext : DbContext
     {
         // Configurar claves primarias
         modelBuilder.Entity<Loan>().HasKey(l => l.LoanId);
-        modelBuilder.Entity<User>().HasKey(u => u.UserId);
-        modelBuilder.Entity<Book>().HasKey(b => b.BookId);
+        modelBuilder.Entity<User>().HasKey(u => u.Id);
+        modelBuilder.Entity<Book>().HasKey(b => b.Id);
         modelBuilder.Entity<Author>().HasKey(a => a.AuthorId);
-        modelBuilder.Entity<Location>().HasKey(l => l.LocationCode);
 
         // Configurar relaciones
         modelBuilder.Entity<Loan>()
@@ -44,15 +43,12 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Book>()
             .HasOne(b => b.Author)
             .WithMany(a => a.Books)
-            .HasForeignKey(b => b.AuthorId);
-
-        modelBuilder.Entity<Book>()
-            .HasOne(b => b.Location)
-            .WithMany(l => l.Books)
-            .HasForeignKey(b => b.LocationCode);
+            .HasForeignKey(b => b.AuthorId)
+            .OnDelete(DeleteBehavior.Restrict); // Opción para manejar borrados relacionados
 
         base.OnModelCreating(modelBuilder);
     }
 }
+
 
 

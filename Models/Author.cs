@@ -11,7 +11,9 @@ public class Author
     public string AuthorName { get; set; }
     public string AuthorLastName { get; set; }
 
+    // Propiedad de navegación para los libros
+    public ICollection<Book> Books { get; set; }
+
     // Constructor for Author 
-    public Author(string authorName, string authorLastName)
-    {}
+    public Author() { }
 }
