@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alejandria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b5ee85235c577e2aa2eeb5e004c480d18992194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dc872105fd9fa4ac5be0052094ec67788c984a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alejandria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alejandria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
