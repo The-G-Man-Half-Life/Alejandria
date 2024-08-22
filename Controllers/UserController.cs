@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using Alejandria.Data;
 using Alejandria.Models;
+using Alejandria.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Alejandria.Controllers
 {
     public class UserController : Controller
     {
-<<<<<<< HEAD
         private readonly AppDbContext _context;
         public UserController(AppDbContext context)
         {
@@ -21,29 +21,24 @@ namespace Alejandria.Controllers
         // Accion para mostrar el formulario de creacion (GET)
         [HttpGet]
         public IActionResult CreateUser()
-=======
-        // Accion para mostrar el formulario de creacion (GET)
-        [HttpGet]
-        public IActionResult Create()
->>>>>>> 39a00b0da7027b983350036ca31c27275735b114
         {
+            ViewBag.Users = new SelectList(_context.Users);
             return View();
         }
 
         // Accion para manejar la sumision del formulario (POST)
         [HttpPost]
-        public IActionResult Create(User user)
+        public async Task<IActionResult> Create(User modelUser)
         {
             if (ModelState.IsValid)
             {
-                // Aqui podrias guardar el usuario en una base de datos.
-<<<<<<< HEAD
+                var existingUser = _context.Users.FirstOrDefault(a => a.Name == modelUser.Name && a.LastName == modelUser.LastName);
 
                 if (existingUser == null)
                 {
                     var newUser = new User
                     {
-                        Id = Guid.NewGuid(), // Asigna un ID único al usuario.
+                        Id = Guid.NewGuid(),
                         IdentificationType = modelUser.IdentificationType,
                         IdentificationNumber = modelUser.IdentificationNumber,
                         Name = modelUser.Name,
@@ -55,32 +50,17 @@ namespace Alejandria.Controllers
                     _context.Users.Add(newUser);
                     await _context.SaveChangesAsync();
                 }
-=======
-                user.Id = Guid.NewGuid(); // Asigna un ID único al usuario.
->>>>>>> 39a00b0da7027b983350036ca31c27275735b114
 
-                // Ejemplo de almacenamiento en una lista en memoria
-                // _context.Users.Add(user);
-                // _context.SaveChanges();
-
-                // Redirige a una página de confirmacion o a la lista de usuarios.
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
 
-            // Si los datos no son válidos, vuelve a mostrar el formulario con los errores.
-            return View(user);
+            return View(modelUser);
         }
 
         public IActionResult Index()
         {
-<<<<<<< HEAD
-            return RedirectToAction(nameof(Index));
-=======
-            // Ejemplo de obtencion de datos de una base de datos
-            // var users = _context.Users.ToList();
-            var users = new List<User>(); // Lista vacia para ejemplo
-            return View(users);
->>>>>>> 39a00b0da7027b983350036ca31c27275735b114
+            var users = _context.Users.ToList(); // Obtén la lista de usuarios desde la base de datos
+            return View(users); // Pasa la lista de usuarios a la vista y devuélvela
         }
     }
 }
