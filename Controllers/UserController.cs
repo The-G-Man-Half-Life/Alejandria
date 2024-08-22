@@ -1,17 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Alejandria.Data;
-using Alejandria.Models;
-using Alejandria.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Logging;
+using Alejandria.Models;
 
 namespace Alejandria.Controllers
 {
     public class UserController : Controller
     {
+<<<<<<< HEAD
         private readonly AppDbContext _context;
         public UserController(AppDbContext context)
         {
@@ -21,20 +21,23 @@ namespace Alejandria.Controllers
         // Accion para mostrar el formulario de creacion (GET)
         [HttpGet]
         public IActionResult CreateUser()
+=======
+        // Accion para mostrar el formulario de creacion (GET)
+        [HttpGet]
+        public IActionResult Create()
+>>>>>>> 39a00b0da7027b983350036ca31c27275735b114
         {
-            // Cargar autores existentes para la selección
-            ViewBag.Users = new SelectList(_context.Users);
-            return View(); // Usamos un ViewModel para incluir tanto el libro como el autor
+            return View();
         }
 
         // Accion para manejar la sumision del formulario (POST)
         [HttpPost]
-        public async Task<IActionResult> Create(User modelUser)
+        public IActionResult Create(User user)
         {
             if (ModelState.IsValid)
             {
-                var existingUser = _context.Users.FirstOrDefault(a => a.Name == modelUser.Name && a.LastName == modelUser.LastName);
                 // Aqui podrias guardar el usuario en una base de datos.
+<<<<<<< HEAD
 
                 if (existingUser == null)
                 {
@@ -52,19 +55,32 @@ namespace Alejandria.Controllers
                     _context.Users.Add(newUser);
                     await _context.SaveChangesAsync();
                 }
+=======
+                user.Id = Guid.NewGuid(); // Asigna un ID único al usuario.
+>>>>>>> 39a00b0da7027b983350036ca31c27275735b114
 
-                return RedirectToAction(nameof(Index)); 
+                // Ejemplo de almacenamiento en una lista en memoria
+                // _context.Users.Add(user);
+                // _context.SaveChanges();
+
+                // Redirige a una página de confirmacion o a la lista de usuarios.
+                return RedirectToAction("Index");
             }
 
-            // Re-cargar los Usuarios existentes si hay un error
-            ViewBag.Users = new SelectList(_context.Users, "IdentificationNumber");
             // Si los datos no son válidos, vuelve a mostrar el formulario con los errores.
-            return View(modelUser);
+            return View(user);
         }
 
         public IActionResult Index()
         {
+<<<<<<< HEAD
             return RedirectToAction(nameof(Index));
+=======
+            // Ejemplo de obtencion de datos de una base de datos
+            // var users = _context.Users.ToList();
+            var users = new List<User>(); // Lista vacia para ejemplo
+            return View(users);
+>>>>>>> 39a00b0da7027b983350036ca31c27275735b114
         }
     }
 }
