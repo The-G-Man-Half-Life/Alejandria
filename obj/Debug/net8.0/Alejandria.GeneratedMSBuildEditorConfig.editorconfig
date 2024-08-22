@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Alejandria
 build_property.RootNamespace = Alejandria
-build_property.ProjectDir = /home/riwip5-044/Documents/EdgarBranch/Alejandria/
+build_property.ProjectDir = C:\Users\zero\Documents\programacion\Celulas de trabajo\Alejandria\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/riwip5-044/Documents/EdgarBranch/Alejandria
+build_property.MSBuildProjectDirectory = C:\Users\zero\Documents\programacion\Celulas de trabajo\Alejandria
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Books/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/User/User.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Vc2VyLmNzaHRtbA==
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/User/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-fz1wt9021v
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jo75i9wv8m
 
-[/home/riwip5-044/Documents/EdgarBranch/Alejandria/Views/Shared/_LayoutUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRVc2VyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-fudbq660zt
+[C:/Users/zero/Documents/programacion/Celulas de trabajo/Alejandria/Views/Shared/_LayoutUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ha1anbs59q
