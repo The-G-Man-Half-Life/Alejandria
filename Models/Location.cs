@@ -1,23 +1,22 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Components.Web;
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Threading.Tasks;
+// using Microsoft.AspNetCore.Components.Web;
 
-namespace Alejandria.Models
-{
-    public class Location
-    {
-        public string LocationCode {get; set;}
-        public string Title {get; set;}
-        public int CopyNumber {get; set;}
+// namespace Alejandria.Models
+// {
+//     public class Location
+//     {
+//         public string LocationCode {get; set;}
+//         public string Title {get; set;}
+//         public int CopyNumber {get; set;}
 
+//         // Propiedad de navegación para los libros
+//         public required ICollection<Book> Books { get; set; } 
 
-        public Location(string LocationCode ,string Title ,int CopyNumber)
-        {
-            this.LocationCode = LocationCode;
-            this.Title = Title;
-            this.CopyNumber = CopyNumber;
-        }
-    }
-}
+//         // Constructor por defecto necesario para Entity Framework Core
+//         public Location() { }
+
+//     }
+// }

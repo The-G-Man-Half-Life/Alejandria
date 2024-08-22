@@ -1,0 +1,61 @@
+@model Alejandria.ViewModels.BookViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Book</h4>
+<hr />
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Book.Title" class="control-label"></label>
+        <input asp-for="Book.Title" class="form-control" />
+        <span asp-validation-for="Book.Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AuthorName" class="control-label"></label>
+        <input asp-for="AuthorName" class="form-control" />
+        <span asp-validation-for="AuthorName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AuthorLastName" class="control-label"></label>
+        <input asp-for="AuthorLastName" class="form-control" />
+        <span asp-validation-for="AuthorLastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Book.LiteraryGenre" class="control-label"></label>
+        <input asp-for="Book.LiteraryGenre" class="form-control" />
+        <span asp-validation-for="Book.LiteraryGenre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Book.PublicationDate" class="control-label"></label>
+        <input asp-for="Book.PublicationDate" class="form-control" />
+        <span asp-validation-for="Book.PublicationDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Book.ISBN" class="control-label"></label>
+        <input asp-for="Book.ISBN" class="form-control" />
+        <span asp-validation-for="Book.ISBN" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Book.StatusValue" class="control-label"></label>
+        <input asp-for="Book.StatusValue" class="form-control" />
+        <span asp-validation-for="Book.StatusValue" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
