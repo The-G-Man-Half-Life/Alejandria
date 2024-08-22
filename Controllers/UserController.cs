@@ -17,10 +17,10 @@ namespace Alejandria.Controllers
         {
             _context = context;
         }
-    
+
         // Accion para mostrar el formulario de creacion (GET)
         [HttpGet]
-         public IActionResult CreateUser()
+        public IActionResult CreateUser()
         {
             // Cargar autores existentes para la selección
             ViewBag.Users = new SelectList(_context.Users);
@@ -35,7 +35,7 @@ namespace Alejandria.Controllers
             {
                 var existingUser = _context.Users.FirstOrDefault(a => a.Name == modelUser.Name && a.LastName == modelUser.LastName);
                 // Aqui podrias guardar el usuario en una base de datos.
-                
+
                 if (existingUser == null)
                 {
                     var newUser = new User
