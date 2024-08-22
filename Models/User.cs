@@ -18,6 +18,6 @@ public class User
     public string PhoneNumber { get; set; }
 
     // Propiedad de navegación para los préstamos
-    public  required ICollection<Loan> Loans { get; set; } 
+    public ICollection<Loan> Loans { get; set; } 
 
 }
