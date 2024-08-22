@@ -6,16 +6,16 @@ using Microsoft.AspNetCore.Components.Web;
 
 namespace Alejandria.Models
 {
-    public class Location
+    public class locations
     {
-        public string LocationCode {get; set;}
+        public Guid LocationCode {get; set;}
         public string Title {get; set;}
         public int CopyNumber {get; set;}
 
 
-        public Location(string LocationCode ,string Title ,int CopyNumber)
+        public locations(Guid LocationCode ,string Title ,int CopyNumber)
         {
-            this.LocationCode = LocationCode;
+            this.LocationCode = new Guid();
             this.Title = Title;
             this.CopyNumber = CopyNumber;
         }
