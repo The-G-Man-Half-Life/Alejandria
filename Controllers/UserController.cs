@@ -64,7 +64,7 @@ namespace Alejandria.Controllers
 
         public IActionResult Index()
         {
-            return View(nameof (Index));
+            return RedirectToAction(nameof(Index));
         }
     }
 }
